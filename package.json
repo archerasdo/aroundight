@@ -1,0 +1,29 @@
+{
+  "name": "aroundight",
+  "version": "1.0.0",
+  "description": "utils tools like aroundight",
+  "main": "index.js",
+  "scripts": {
+    "test": "jtest",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/archerasdo/aroundight.git"
+  },
+  "keywords": [
+    "util",
+    "tools"
+  ],
+  "author": "archersado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/archerasdo/aroundight/issues"
+  },
+  "homepage": "https://github.com/archerasdo/aroundight#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4"
+  }
+}
